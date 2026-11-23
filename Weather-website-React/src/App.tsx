@@ -1,28 +1,13 @@
-import './App.css'
+import "./App.css";
+import { Header } from "./components/Header/Header.tsx";
+import { SearchSection } from "./components/SearchSection/SearchSection.tsx";
 
 function App() {
 
   return (
     <>
-    <div className="logo">
-      <img src="../public/assets/images/logo.svg" alt="Weather App Logo" />
-      <details>
-        <summary>Units</summary>
-        <ul>
-          <li>Switch to Imperial/Metric</li>
-          <li>Temperature: Celsius (°C) / Fahrenheit (°F)</li>
-          <li>Wind Speed: km/h / mph</li>
-          <li>Precipitation: Millimeters (mm) / Inches (in)</li>
-        </ul>
-      </details>
-    </div>
-
-    <h1>How's the sky looking today?</h1>
-    
-    <form>
-      <input type="search" placeholder="Search for a place..." />
-      <button type="submit">Search</button>
-    </form>
+    <Header />
+    <SearchSection />
 
     <section className="weather-grid">
     </section>

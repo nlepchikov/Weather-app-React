@@ -1,0 +1,22 @@
+:root{
+--Neutral900: hsl(243, 96%, 9%);
+--Neutral800: hsl(243, 27%, 20%);
+--Neutral700: hsl(243, 23%, 24%);
+--Neutral600: hsl(243, 23%, 30%);
+--Neutral300: hsl(240, 6%, 70%);
+--Neutral200: hsl(250, 6%, 84%);
+--Neutral0: hsl(0, 0%, 100%);
+
+--Orange500: hsl(28, 100%, 52%);
+
+--Blue500: hsl(233, 67%, 56%);
+--Blue700: hsl(248, 70%, 36%);
+}
+
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    padding: 30px 30px;
+    background-color: var(--Neutral900);
+}
